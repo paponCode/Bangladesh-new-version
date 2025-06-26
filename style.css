@@ -224,7 +224,7 @@ font-weight: 600;
 line-height: 19px;
 letter-spacing: 0%;
 }
-/* BD Adviser */
+/* BD-Adviser */
 .BD-adviser{
   width: 1280px;
 height: 256px;
@@ -261,18 +261,86 @@ font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0%;
+}
 
+.donate{
+  margin-top: 100px;
 }
 
 
+/* table{
+  border: 1px solid black;
+} */
+.opinion-title{
+  color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+margin-top: 80px;
+margin-bottom: 30px;
+}
+.thead{
+  width: 0 auto;
+height: 72px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(198, 228, 214);
+padding: 24px;
+}
+.thead1 .thead2{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+}
+.opinion-data{
+padding: 30px;
+  width: 1280px;
+height: 409px;
+border-radius: 16px;
 
+background: rgb(255, 255, 255);
+}
+.opinion-table{
+width: 100%;
 
-
-
-
-
-
-
+}
+.td{
+  padding: 24px;
+  width: 1017px;
+height: 92px;
+  box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgba(255, 255, 255, 0.1);
+}
+select{
+width: 152px;
+height: 44px;
+box-sizing: border-box;
+border: 1px solid rgb(14, 14, 14);
+border-radius: 4px;
+background: rgba(9, 161, 92, 0.15);
+}
+.td-select{
+  padding: 20px;
+width: 200px;
+height: 92px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgba(255, 255, 255, 0.1);
+}
+.select-option{
+  color: rgb(14, 14, 14);
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0%;
+}
 
 
 
