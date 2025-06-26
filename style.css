@@ -4,7 +4,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-.nav-bar{
+body{
+   background-color: #f5f5f5;
+  font-family: Fira Sans;
+}
+.container{
+  width: 1280px;
+  margin: 0 auto;
+}
+.logo{
   color: rgb(14, 14, 14);
 font-family: Fira Sans;
 font-size: 32px;
@@ -13,3 +21,247 @@ line-height: 38px;
 letter-spacing: 0%;
 text-align: left;
 }
+.nav-signIn{
+  width: 116px;
+height: 52px;
+font-size: 18px;
+font-weight: 600;
+color: rgb(0, 106, 80);
+box-sizing: border-box;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.banner-title{
+  color: rgba(14, 14, 14, 0.5);
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+
+}
+.banner-sub-title{
+  color: rgb(14, 14, 14);
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+margin: 20px 0;
+
+}
+.banner-btn{
+  color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+width: 270px;
+height: 56px;
+border: none;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+}
+.banner-content{
+  width: 622px;
+height: 326px;
+}
+.header-banner{
+  width: 1280px;
+height: 560px;
+  display: flex;
+  border-radius: 24px;
+background: rgb(198, 228, 214);
+align-items: center;
+margin-top: 70px;
+padding: 0 120px;
+}
+.pillar-card{
+  width: 302px;
+height: 244px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 24px;
+}
+.pillars{
+  display: flex;
+  gap: 24px;
+}
+.pillar-head{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+margin-top: 60px;
+margin-bottom: 32px;
+}
+.pillar-title{
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+margin: 20px 0;
+}
+.pillar-sub-title{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+}
+.section-title{
+  color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+margin-top: 80px;
+}
+.section-desc{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+width: 1280px;
+height: 48px;
+margin: 20px 0;
+}
+/* vision */
+.vision-cards{
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.vision-card1{
+  width: 410.67px;
+height: 325px;
+box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+padding: 24px;
+}
+.vision-card2{
+  width: 410.67px;
+height: 325px;
+box-sizing: border-box;
+box-sizing: border-box;
+border-radius: 16px;
+background: rgb(198, 228, 214);
+padding: 24px;
+}
+.vision-card3{
+  width: 410.67px;
+height: 325px;
+box-sizing: border-box;
+box-sizing: border-box;
+border-radius: 16px;
+background: rgb(247, 235, 207);
+padding: 24px;
+gap: 24px;
+}
+.vision-title{
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+margin-top: 24px;
+}
+.vision-desc{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+margin: 20px 0;
+}
+.vision-btn1{
+width: 122px;
+height: 41px;
+box-sizing: border-box;
+border: none;
+border-radius: 8px;
+
+background: rgb(84, 144, 245);
+}
+.vision-btn2{
+width: 122px;
+height: 41px;
+box-sizing: border-box;
+border: none;
+border-radius: 8px;
+background: rgb(9, 161, 92);
+margin-top: 24px;
+}
+.vision-btn3{
+width: 122px;
+height: 41px;
+box-sizing: border-box;
+border: none;
+border-radius: 8px;
+background: rgb(255, 194, 57);
+margin-top: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
